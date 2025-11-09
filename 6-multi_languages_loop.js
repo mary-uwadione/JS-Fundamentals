@@ -1,9 +1,5 @@
-const size = parseInt(process.argv[2]);
+const lines = ["C is fun", "Python is cool", "JavaScript is amazing"];
 
-if (isNaN(size)) {
-  console.log("Missing size");
-} else {
-  for (let i = 0; i < size; i++) {
-    console.log("X".repeat(size));
-  }
+for (let i = 0; i < lines.length; i++) {
+  console.log(lines[i]);
 }
